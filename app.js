@@ -4,13 +4,9 @@
 
 // alert(welcomeMessage);
 var btnTranslate = document.querySelector("#btn-translator");
-
+var outputDiv = document.querySelector("#output");
 var txtInput = document.querySelector("#txt-Input");
 
-console.log(txtInput);
-
 btnTranslate.addEventListener("click", function clickEventHandler() {
-    console.log("clicked!");
-    console.log("input",txtInput.value);
-
+    outputDiv.innerText = "adda tranlated " + txtInput.ariaValueMax;
 })
